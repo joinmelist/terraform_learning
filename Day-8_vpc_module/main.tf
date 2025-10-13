@@ -14,7 +14,6 @@ module "vpc" {
   
 
   enable_nat_gateway = true
-  
 
   tags = {
     Terraform = "true"
